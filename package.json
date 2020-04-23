@@ -1,0 +1,27 @@
+{
+   "name": "unit-testing-practice",
+   "version": "1.0.0",
+   "description": "In this project, you will demonstrate proficiency by writing unit tests and production code to satisfy the _Minimum Viable Product_ described below.",
+   "main": "index.js",
+   "dependencies": {},
+   "devDependencies": {
+      "@babel/core": "^7.9.0",
+      "@babel/node": "^7.8.7",
+      "@babel/preset-env": "^7.9.5",
+      "babel-jest": "^25.4.0",
+      "jest": "^25.4.0"
+   },
+   "scripts": {
+      "test": "jest --watch"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Karavil/unit-testing-practice.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/Karavil/unit-testing-practice/issues"
+   },
+   "homepage": "https://github.com/Karavil/unit-testing-practice#readme"
+}

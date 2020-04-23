@@ -10,8 +10,8 @@ class Item {
    }
 
    fail() {
-      if (this.enhancement > 16) this.enhancement -= 1;
-      else if (this.enhancement === 15) this.enhancement -= 10;
+      if (this.enhancement >= 17) this.enhancement -= 1;
+      else if (this.enhancement >= 15) this.enhancement -= 10;
       else this.enhancement -= 5;
    }
 
@@ -31,4 +31,4 @@ class Item {
    }
 }
 
-module.Item = Item;
+export default Item;
